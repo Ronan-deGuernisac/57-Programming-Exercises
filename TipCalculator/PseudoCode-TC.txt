@@ -1,0 +1,83 @@
+=begin
+###############################################################################
+############################# Tip Calculator ##################################
+###############################################################################
+
+########################### Problem Statement #################################
+
+The program should welcome the user, give a simple example of how to use the
+calculator.
+The program should prompt for the bill amount and a tip rate.
+The program must compute the tip rate and then display both the tip and
+the total amount of the bill.
+the tip as to be entered as a percentage.
+Example: 15 for 15%, not 0.15.
+The program as to handle the division.
+The fraction should be rounded-up to the next cent.
+Ensure that the user can only enter numbers for the bill amount and tip rate.
+If the user use non-numeric values, display an appropriate message and exit the
+program.
+Also don't allow the user to enter negative number.
+
+##############################################################################
+
+##################### Inputs, Processes, and Outputs ##########################
+
+
+LIST OF NOUNS (input/output)
+
+- welcome
+- example
+- bill amount
+- tip rate
+- tip
+- total amount of the bill
+- numbers
+- message
+- program
+- negative numbers
+
+
+LIST OF VERBS (Processes)
+
+- give
+- prompt
+- compute
+- display tip & total bill
+- handle
+- rounded-up
+- !allow
+- ensure
+- display error message
+
+Inputs: bill amount, tip rate.
+
+Processes: compute tip, handle division, prompt user, welcome, give example,
+round-up tip & bill total, !allow negavive numbers, display tip & bill total.
+
+Outputs: welcome, example tip, total amount of the bill.
+
+###############################################################################
+
+Welcome user
+
+give example
+
+prompt for bill amount & tip percentage rate
+
+    + methods(handle division)
+    + (!allow - numeric)
+              error message + loop back @ prompt
+
+calculate tip
+
+display tip & bill total (rounded-up)
+
+        + loop question again or exit 
+
+define method: error message
+
+define method: exit program
+
+###############################################################################
+=end

@@ -1,0 +1,3 @@
+# database created just for the purpose of testing & experimenting with .gitignore
+
+db/*.SQLite3
